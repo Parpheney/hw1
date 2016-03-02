@@ -1,7 +1,7 @@
-﻿body{
+body{
     background-color: rgb(237, 235, 230);
   }
-#parent{
+.parent{
   background: white;
   height: 880px;
   width: 520px;
@@ -9,8 +9,8 @@
 padding-top: 30px;
 padding-right: 60px;
 padding-left: 60px;
--webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+background: -webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+background:-moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
 font-size: 18px;
 }
@@ -22,7 +22,8 @@ p{
 
 }
 img{
-  padding-left: 180px;
+  display: block;
+  margin: 0 auto;
 }
 ul{
   line-height: 30px;
